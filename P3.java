@@ -1,5 +1,3 @@
-
-
 public class P3
 {
   public static void main(String args[]) 
@@ -16,8 +14,12 @@ public class P3
               {
               System.out.print("*  ");
               }
-         }
-       }
-   }
-}
-        
+              // Otherwise we print blank space.
+              else
+              System.out.print("   ");
+          }
+          System.out.println();
+      }
+  }
+}  
+
